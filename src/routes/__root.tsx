@@ -83,13 +83,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Faça sua aposta no placar de Brasil x Escócia. Pagamento via PIX, R$ 20,00 por palpite. Concorra a até R$ 1.000,00.",
       },
-      { property: "og:title", content: "Bolão Brasil x Escócia" },
+      { property: "og:title", content: "Bolão Brasil x Escócia — Acerte o placar e ganhe até R$ 1.000" },
       {
         property: "og:description",
         content: "Acerte o placar e concorra ao prêmio. Aposte por R$ 20,00 via PIX.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Bolão Brasil x Escócia — Acerte o placar e ganhe até R$ 1.000" },
+      { name: "description", content: "Online betting platform for predicting match scores with PIX payment integration." },
+      { property: "og:description", content: "Online betting platform for predicting match scores with PIX payment integration." },
+      { name: "twitter:description", content: "Online betting platform for predicting match scores with PIX payment integration." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/16d7571f-e9a5-4438-b2ba-379a9d567c3f/id-preview-0c4de4b9--7af7c359-b2a1-4737-a930-e05fb86c0ca3.lovable.app-1781888254253.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/16d7571f-e9a5-4438-b2ba-379a9d567c3f/id-preview-0c4de4b9--7af7c359-b2a1-4737-a930-e05fb86c0ca3.lovable.app-1781888254253.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
